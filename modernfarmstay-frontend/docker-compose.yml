@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  frontend:
+    container_name: modernfarmstay_frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
+    ports:
+      - "3100:3100"
+    restart: unless-stopped
