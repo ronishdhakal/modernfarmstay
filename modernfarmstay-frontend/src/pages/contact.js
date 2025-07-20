@@ -25,15 +25,27 @@ export default function Contact() {
             <div className="space-y-6">
               <div className="flex items-center gap-3 text-gray-800">
                 <Mail className="w-6 h-6 text-[#54b435]" />
-                <span className="text-lg">modernfarmstaydumre@gmail.com</span>
+                <a 
+                  href="mailto:modernfarmstaydumre@gmail.com" 
+                  className="text-lg hover:underline"
+                >
+                  modernfarmstaydumre@gmail.com
+                </a>
               </div>
               <div className="flex items-center gap-3 text-gray-800">
                 <PhoneCall className="w-6 h-6 text-[#54b435]" />
-                <span className="text-lg">+977 9841362697</span>
+                <a 
+                  href="tel:+9779841362697" 
+                  className="text-lg hover:underline"
+                >
+                  +977 9841362697
+                </a>
               </div>
               <div className="flex items-center gap-3 text-gray-800">
                 <MapPin className="w-6 h-6 text-[#54b435]" />
-                <span className="text-lg">Dumre (Near Bandipur Cable Car), Tanahun, Nepal</span>
+                <span className="text-lg">
+                  Dumre (Near Bandipur Cable Car), Tanahun, Nepal
+                </span>
               </div>
             </div>
 
@@ -63,7 +75,7 @@ export default function Contact() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.4458829790324!2d84.4110671!3d27.954673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399505182ec294e1%3A0x89b2cb2eb5e64158!2sModern%20Farm%20Stay!5e1!3m2!1sen!2snp!4v1752657783132!5m2!1sen!2snp"
           width="100%" 
           height="450" 
-          style={{ border:0 }} 
+          style={{ border: 0 }} 
           allowFullScreen 
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"
